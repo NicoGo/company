@@ -1,0 +1,246 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+.section-header
+{
+	height: 70px;
+	width: 100%;
+}
+
+.red
+{
+	color: #E21E2F;
+}
+
+.glass-icon
+{
+	display: block;
+    font-family: "Flaticon";
+    font-size: 64px !important;
+    line-height: 1;
+    text-align: center;
+}
+
+.right
+{
+	float: right;
+}
+
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+/** HEADER **/
+
+.header
+{
+	width: auto;
+	height: 80px;
+	/** border-bottom: 1px solid #B91926; **/
+}
+
+.header-logo
+{
+	position: absolute;
+	left: 20px;
+	top: 18px;
+}
+
+.menu-displayer
+{
+	position: absolute;
+	right: 20px;
+	display: none;
+	top: 22px;
+	font-size: 25px;
+}
+
+.header ul
+{
+	display: block;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: right;
+}
+
+.header ul li
+{
+	color: grey;
+	display: inline-block;
+	line-height: 80px;
+}
+
+.header ul li a
+{
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #525252;
+	padding: 0 20px;
+	border-right: 1px solid #F1F1F1;
+}
+
+.header ul li a:hover
+{
+	color: red;
+	transition-duration: 2s;
+}
+
+@media screen and (max-width: 1000px) {
+  .header ul
+  {
+  	display: none;
+  	z-index: 100;
+	position: absolute;
+	top: 80px;
+	height: auto;
+	width: 100%;
+   } 
+
+	.header ul li
+	{
+		display: block;
+		width: 100%;
+		background-color: white;
+		text-align: center;
+		border-bottom: 1px solid #F1F1F1;
+	}
+
+	.header ul li a
+	{
+		border-right: 1px solid transparent;
+	}
+
+	.menu-displayer
+	{
+		display: block;
+	}
+}
+
+
+/** SLIDER **/
+
+#slider
+{
+	width: 100%; 
+	height: 500px;
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#BC65BF, #664CDA); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#BC65BF, #664CDA); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#BC65BF, #664CDA); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#BC65BF, #664CDA); /* Standard syntax */
+}
+
+
+
+
+/** OWL CAROUSEL **/
+
+.owl-carousel .item {}
+
+.owl-carousel .owl-item {
+    position: relative;
+    min-height: 1px;
+    float: left;
+    -webkit-backface-visibility: hidden;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.owl-carousel .owl-next {
+	right: 50px;
+    top: 47%;
+    position: absolute;
+}
+
+.owl-carousel .owl-next:after {
+    position: absolute;
+    color: white;
+    font-size: 70px;
+    content: "\f105";
+    left: 0;
+    top: 0;
+    bottom: 0;
+    font-family: "FontAwesome";
+    
+}
+
+.owl-carousel .owl-prev {
+	left: 30px;
+    top: 47%;
+    position: absolute;
+}
+
+.owl-carousel .owl-prev:after {
+    position: absolute;
+    color: white;
+    font-size: 70px;
+    content: "\f104";
+    left: 0;
+    top: 0;
+    bottom: 0;
+    font-family: "FontAwesome"; 
+}
+
+.owl-carousel-main .item {}
+
+.owl-carousel-main .owl-item {
+    position: relative;
+    min-height: 1px;
+    float: left;
+    -webkit-backface-visibility: hidden;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.owl-carousel-main .owl-next {
+	right: 50px;
+    top: 47%;
+    position: absolute;
+}
+
+.owl-carousel-main .owl-next:after {
+    position: absolute;
+    color: red;
+    font-size: 70px;
+    content: "\f105";
+    left: 0;
+    top: 0;
+    bottom: 0;
+    font-family: "FontAwesome";
+    
+}
+
+.owl-carousel-main .owl-prev {
+	left: 30px;
+    top: 47%;
+    position: absolute;
+}
+
+.owl-carousel-main .owl-prev:after {
+    position: absolute;
+    color: red;
+    font-size: 70px;
+    content: "\f104";
+    left: 0;
+    top: 0;
+    bottom: 0;
+    font-family: "FontAwesome";
+}
+
