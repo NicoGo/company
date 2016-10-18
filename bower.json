@@ -17,12 +17,9 @@
   "dependencies": {
     "jquery": "^2.2.3",
     "bootstrap": "^3.3.6",
-    "particles.js": "^2.0.0",
     "font-awesome": "^4.6.1",
-    "Chart.js": "^2.0.2",
     "masonry": "^4.1.0",
     "scrollreveal": "^3.1.4",
-    "owl.carousel": "^2.1.4",
-    "ekko-lightbox": "^4.0.2"
+    "owl.carousel": "^2.1.4"
   }
 }
