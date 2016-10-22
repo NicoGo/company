@@ -1,3 +1,5 @@
+Travailler sur la branche "Features"
+
 Pour recuperer les sources il faut :
 
 Pull le depot git
