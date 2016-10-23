@@ -222,10 +222,47 @@ body
 
 #exemple1
 {
-    background-color: #4062BB;
-    height: 500px;
+    background-color: #F1F1F1;
+    height: 700px;
     width: 100%;
+    padding: 100px 0px;
 }
+
+#exemple1 .test
+{
+    display: inline-block;
+    height: 350px;
+    width: 300px;
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+#exemple1 .title
+{
+    font-size: 12px;
+    color: grey;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+#exemple1 .border{
+    width: 150px;
+    height: 1px;
+    background-color: grey;
+    margin-top: 1px;
+    display: block;
+    margin: auto;
+}
+
+#exemple1 .description
+{
+    margin-top: 20px;
+    padding: 5px 20px;
+    font-size: 11px;
+    color: #585858;
+}
+
 
 /* fluid 5 columns */
 .grid-sizer,
@@ -367,4 +404,5 @@ body
     bottom: 0;
     font-family: "FontAwesome";
 }
+
 
