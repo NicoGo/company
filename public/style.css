@@ -130,17 +130,133 @@ body
 
 #slider
 {
-	width: 100%; 
-	height: 500px;
-    background: red; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#BC65BF, #664CDA); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#BC65BF, #664CDA); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#BC65BF, #664CDA); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#BC65BF, #664CDA); /* Standard syntax */
+	height: 600px;
+    background-color: #2C2D3C;
+    font-size: 11px;
 }
 
+#slider .head-text
+{
+    color: white;
+    margin-left: 100px;
+    margin-top: 200px;
+}
 
+#slider .headline
+{
+    color: white;
+    font-size: 25px;
+}
 
+#slider .subdescription
+{
+    color: white;
+    font-size: 11px;
+}
+
+#slider .main-link
+{
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 5px 20px;
+    margin-top: 20px;
+}
+
+#slider .header
+{
+    height: 75px;
+    background-color: white;
+}
+
+#slider .menu
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#slider .menu ul
+{
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+}
+
+#slider .menu ul li
+{
+    color: grey;
+    display: inline-block;
+    line-height: 80px;
+}
+
+#slider .menu ul li a
+{
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: grey;
+    padding: 0 20px;
+    border-right: 1px solid #F1F1F1;
+}
+
+#slider .menu ul li a:hover
+{
+    color: red;
+    transition-duration: 2s;
+}
+
+#slider .title
+{
+    padding-top: 50px;
+}
+
+#slider .description
+{
+    color: grey;
+}
+
+/* fluid 5 columns */
+.grid-sizer,
+.grid-item { width: 10%; height: 10vw; float: left; position: relative; }
+
+.grid-item img { height: 100%; width: 100%; }
+/* 2 columns */
+.grid-item--width2 { width: 20%; }
+
+.grid-item--height2 { height: 20vw; }
+
+.red-square
+{
+    background-color: red;
+}
+
+.green-square
+{
+    background-color: green;
+}
+
+.grid-item:before
+{
+    content: "";
+    position: absolute;
+    background-color: white;
+    left: 25%;
+    right: 25%;
+    bottom: 50%;
+    height: 2px;
+    transform-origin: 0;
+    transform: scaleX(0);
+    transition: all 0.3s ease-out;
+}
+
+.grid-item:hover:before
+{
+    transform: scaleX(1);
+}
 
 /** OWL CAROUSEL **/
 
