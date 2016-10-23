@@ -4,3 +4,11 @@ Pull le depot git
 Avoir installer NodeJS sur le pc
 - npm install -g bower
 - bower install
+
+Colors:
+#54289C = violet
+#4062BB = bleu
+#59C3C3 = turquoise
+#EBEBEB = blanc
+#F45B69 = rouge
+#2C2D3C = violet noir
