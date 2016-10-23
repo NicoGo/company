@@ -246,7 +246,8 @@ body
     padding: 20px 0px;
 }
 
-#exemple1 .border{
+#exemple1 .border
+{
     width: 150px;
     height: 1px;
     background-color: grey;
@@ -261,6 +262,12 @@ body
     padding: 5px 20px;
     font-size: 11px;
     color: #585858;
+}
+
+#exemple1 .glass-icon
+{
+    padding: 20px;
+    color: #F45B69;
 }
 
 
