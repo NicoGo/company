@@ -132,6 +132,7 @@ body
 {
 	height: 600px;
     background-color: #2C2D3C;
+    background-image: url('../images/background.png');
     font-size: 11px;
 }
 
