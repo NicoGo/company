@@ -132,7 +132,37 @@ body
 {
 	height: 600px;
     background-color: #F1F1F1;
+    background-image: url("../images/mac.png");
     font-size: 11px;
+}
+
+#slider .head-text
+{
+    color: white;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+#slider .headline
+{
+    color: white;
+    font-size: 25px;
+}
+
+#slider .subdescription
+{
+    color: white;
+    font-size: 11px;
+}
+
+#slider .main-link
+{
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 5px 20px;
+    margin-top: 20px;
 }
 
 #slider .header
@@ -180,10 +210,14 @@ body
     transition-duration: 2s;
 }
 
-#slider .subtitle
+#slider .title
 {
-    color: white;
-    width: 500px;
+    padding-top: 50px;
+}
+
+#slider .description
+{
+    color: grey;
 }
 
 /* fluid 5 columns */
