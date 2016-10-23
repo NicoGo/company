@@ -220,6 +220,13 @@ body
     color: grey;
 }
 
+#exemple1
+{
+    background-color: #F1F1F1;
+    height: 500px;
+    width: 100%;
+}
+
 /* fluid 5 columns */
 .grid-sizer,
 .grid-item { width: 10%; height: 10vw; float: left; position: relative; }
